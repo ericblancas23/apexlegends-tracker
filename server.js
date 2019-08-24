@@ -19,7 +19,7 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 //profile routes
-app.use('/api/v1/profile', require('./routes/profile'));
+app.use('/api/v1/profile',require('./routes/profile'));
 
 app.listen(port, () => {
     console.log(`server is working: running in ${process.env.NODE_ENV} on ${port}`);
